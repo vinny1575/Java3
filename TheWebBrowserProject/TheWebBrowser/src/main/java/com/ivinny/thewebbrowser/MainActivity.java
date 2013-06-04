@@ -65,6 +65,7 @@ public class MainActivity extends Activity {
             flip(webView);
         }
 
+        //back button
         Button backBtn = (Button)findViewById(R.id.backBtn);
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +74,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        //forward button
         Button fwdBtn = (Button)findViewById(R.id.fwdBtn);
         fwdBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +83,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        //go button
         Button goBtn = (Button)findViewById(R.id.goBtn);
         goBtn.setOnClickListener(new View.OnClickListener() {
             @Override
