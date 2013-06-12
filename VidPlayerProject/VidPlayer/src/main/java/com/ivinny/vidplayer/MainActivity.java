@@ -1,3 +1,16 @@
+/*
+*    Author:       Alan Gonzalez
+*
+*    Project:      MuseumContentProvider
+*
+*    Package:      com.ivinny.vidplayer
+*
+*    File:         MainActivity.java
+*
+*    Purpose:      To Display the list of videos and a small video playing screen.
+*
+*/
+
 package com.ivinny.vidplayer;
 
 import android.animation.ObjectAnimator;
