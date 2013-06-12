@@ -86,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheWebBrowser/src/main/java/com/ivinny/thewebbrowser/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="0" selection-start="3136" selection-end="3349" vertical-scroll-proportion="0.33940774" vertical-offset="931" max-vertical-offset="1395">
+            <state line="105" column="0" selection-start="3136" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TheWebBrowser/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="645">
+            <state line="15" column="8" selection-start="506" selection-end="548" vertical-scroll-proportion="0.49778762" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -598,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheWebBrowser/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TheWebBrowser/src/main/res/animator/flipping">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="17" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
@@ -614,7 +607,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheWebBrowser/src/main/java/com/ivinny/thewebbrowser/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="3136" selection-end="3349" vertical-scroll-proportion="0.33940774" vertical-offset="931" max-vertical-offset="1395">
+        <state line="105" column="0" selection-start="3136" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheWebBrowser/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="506" selection-end="548" vertical-scroll-proportion="0.49778762" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>

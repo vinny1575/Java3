@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
                 itemName = videos[position];
                 thePath = ctx.getFilesDir() + "/" + itemName + ".m4v";
                 theURL = urls[position];
-                // instantiate it within the onCreate method
+                // instantiate the progress dialog
                 mProgressDialog = new ProgressDialog(ctx);
                 mProgressDialog.setMessage(videos[position] + " Downloading to " + thePath);
                 mProgressDialog.setIndeterminate(false);
@@ -114,6 +114,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        //setup pause button
         Button pauseBtn = (Button)findViewById(R.id.pauseBtn);
         pauseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -122,6 +123,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        //setup play button
         Button playBtn = (Button)findViewById(R.id.playBtn);
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -137,6 +139,7 @@ public class MainActivity extends Activity {
         @Override
         protected String doInBackground(String... sUrl) {
             try {
+                //creating url connection
                 URL url = new URL(sUrl[0]);
                 URLConnection connection = url.openConnection();
                 connection.connect();
@@ -152,7 +155,7 @@ public class MainActivity extends Activity {
                 int count;
                 while ((count = input.read(data)) != -1) {
                     total += count;
-                    // publishing the progress....
+                    // publishing the progress.... doing calculations (calls onProgressUpdate)
                     publishProgress((int) (total * 100 / fileLength));
                     output.write(data, 0, count);
                 }
@@ -166,6 +169,7 @@ public class MainActivity extends Activity {
             return null;
         }
 
+        //before download happends
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
@@ -174,10 +178,12 @@ public class MainActivity extends Activity {
             playVidAtUrl(theURL);
         }
 
+        //updates the progress
         @Override
         protected void onProgressUpdate(Integer... progress) {
             super.onProgressUpdate(progress);
             mProgressDialog.setProgress(progress[0]);
+            //see onitemclicklistener for list
         }
     }
 
@@ -202,6 +208,7 @@ public class MainActivity extends Activity {
         flip(video);
     }
 
+    //andimation flips any view, we are flipping the video player
     private void flip(View target){
         ObjectAnimator anim = ObjectAnimator.ofFloat(ctx, "rotationY", 0.0f, 360.0f);
         anim.setTarget(target);
