@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+	<fragment 
+	    
+	    android:id="@+id/mainfragid"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent" 
+	    android:name="com.ivinny.tempcalc.MainFragment"
+	    android:layout_weight="45">
+	
+	</fragment>
+	<fragment 
+    
+	    android:id="@+id/confragid"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent" 
+	    android:name="com.ivinny.tempcalc.ConversionFragment"
+	    android:layout_weight="55">
+
+	</fragment>
+</LinearLayout>

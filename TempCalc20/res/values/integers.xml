@@ -1,0 +1,7 @@
+<resources>
+    
+    <integer name="farenheit">25</integer>
+    <integer name="celsius">10</integer>
+    <integer name="kelvin">5</integer>
+    
+</resources>
