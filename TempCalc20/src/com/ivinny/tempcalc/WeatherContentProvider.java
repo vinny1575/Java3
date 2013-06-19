@@ -53,6 +53,7 @@ public class WeatherContentProvider extends ContentProvider {
         uriMatcher.addURI(AUTHORITY,"items/#", ITMES_ID);
     }
 
+
     @Override
     public boolean onCreate() {
         Log.d(TAG, "onCreate");

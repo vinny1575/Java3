@@ -1,5 +1,6 @@
 package com.ivinny.tempcalc;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.content.Intent;
 import android.net.Uri;
@@ -40,10 +41,12 @@ public class ConversionFragment extends Fragment {
 	Boolean clicked = false;
 	String lastTemp;
     Button submitBtn;
+
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		
+
 		if(savedInstanceState != null){
 			clicked = savedInstanceState.getBoolean("clicked");
 			lastTemp = savedInstanceState.getString("lastTemp");
