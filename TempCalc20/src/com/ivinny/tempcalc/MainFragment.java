@@ -158,7 +158,7 @@ public class MainFragment extends Fragment {
 
                 //clear cache
                 String content = "";
-                File file = new File(getActivity().getCacheDir(), "appCache");
+                File file = new File(getActivity().getCacheDir(), "json");
                 FileOutputStream fos = null;
                 try {
                     fos = new FileOutputStream(file.getAbsolutePath(), false);
