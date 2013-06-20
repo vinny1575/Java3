@@ -10,6 +10,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="WIDGET" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f6cd5f10-b4a3-4313-9855-e17042dca327" name="Default" comment="" />
     <ignored path="TempCalc20.iws" />
@@ -106,16 +109,25 @@
       <file leaf-file-name="MainFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/MainFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="334" column="8" selection-start="10529" selection-end="10630" vertical-scroll-proportion="0.0" vertical-offset="4145" max-vertical-offset="4545">
+            <state line="334" column="8" selection-start="10529" selection-end="10630" vertical-scroll-proportion="0.0" vertical-offset="3905" max-vertical-offset="4545">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="527" selection-end="527" vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="735">
+            <state line="15" column="36" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp_widget_info.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/xml/temp_widget_info.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="555" selection-end="555" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="400">
               <folding />
             </state>
           </provider>
@@ -136,7 +148,7 @@
       <file leaf-file-name="TempWidgetProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/TempWidgetProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="18" selection-start="2984" selection-end="2984" vertical-scroll-proportion="-3.6" vertical-offset="1005" max-vertical-offset="1965">
+            <state line="61" column="46" selection-start="2247" selection-end="2247" vertical-scroll-proportion="-6.6" vertical-offset="750" max-vertical-offset="1815">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,13 +175,13 @@
         <option value="$PROJECT_DIR$/res/layout/about.xml" />
         <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/AboutActivity.java" />
-        <option value="$PROJECT_DIR$/res/xml/temp_widget_info.xml" />
         <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherAsync.java" />
         <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherIntentService.java" />
         <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherContentProvider.java" />
-        <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/TempWidgetProvider.java" />
-        <option value="$PROJECT_DIR$/res/layout/tempwidget.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/tempwidget.xml" />
+        <option value="$PROJECT_DIR$/src/com/ivinny/tempcalc/TempWidgetProvider.java" />
+        <option value="$PROJECT_DIR$/res/xml/temp_widget_info.xml" />
       </list>
     </option>
   </component>
@@ -291,6 +303,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TempCalc20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TempCalc20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +596,7 @@
     <option name="totallyTimeSpent" value="60690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1420" height="815" extended-state="1" />
+    <frame x="20" y="22" width="1420" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="120" y="122" width="1220" height="615" />
@@ -718,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/temp_widget_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherAsync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="31" selection-start="1027" selection-end="1027" vertical-scroll-proportion="-13.8" vertical-offset="0" max-vertical-offset="615">
@@ -741,19 +764,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/TempWidgetProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="18" selection-start="2984" selection-end="2984" vertical-scroll-proportion="-3.6" vertical-offset="1005" max-vertical-offset="1965">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="1" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1065">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="334" column="8" selection-start="10529" selection-end="10630" vertical-scroll-proportion="0.0" vertical-offset="3920" max-vertical-offset="4545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="36" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/TempWidgetProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="46" selection-start="2247" selection-end="2247" vertical-scroll-proportion="-6.6" vertical-offset="750" max-vertical-offset="1815">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,16 +804,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/MainFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/xml/temp_widget_info.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="334" column="8" selection-start="10529" selection-end="10630" vertical-scroll-proportion="0.0" vertical-offset="3920" max-vertical-offset="4545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="527" selection-end="527" vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="735">
+        <state line="10" column="21" selection-start="555" selection-end="555" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="400">
           <folding />
         </state>
       </provider>

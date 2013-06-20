@@ -54,22 +54,12 @@ public class TempWidgetProvider extends AppWidgetProvider {
 
             views.setTextViewText(R.id.tempfTxt, "tester");
 
-            Uri uri = Uri.parse("content://com.ivinny.application.weathercontentprovider");
-            Cursor cursor = context.getContentResolver().query(uri, null,null,null,null);
-//            if (cursor.moveToFirst() == true){
-//                HashMap<String, String> displayMap = new HashMap<String, String>();
-//                displayMap.put("city", cursor.getString(1));
-//                displayMap.put("url", cursor.getString(3));
-//                displayMap.put("temp", cursor.getString(2));
-//
-//                views.setTextViewText(R.id.cityT, cursor.getString(1));
-//                views.setTextViewText(R.id.tempfTxt, cursor.getString(2));
-//            }
 
             String url = "http://api.wunderground.com/api/87a8ccdf84e0370d/conditions/q/Fl/Jacksonville.json";
             WidgetAsync downloadFile = new WidgetAsync();
             try {
                 String returnString = downloadFile.execute(url).get();
+                Log.i("WIDGET", returnString);
                 JsonObject jsonObj = new Gson().fromJson(returnString, JsonObject.class);
                 final JsonObject json_data = jsonObj.getAsJsonObject("current_observation");
                 final String city =  json_data.getAsJsonObject("display_location").get("city").getAsString();
