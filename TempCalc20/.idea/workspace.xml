@@ -95,19 +95,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherContentProvider.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WeatherContentProvider.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherContentProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="31" selection-start="6288" selection-end="6291" vertical-scroll-proportion="0.0" vertical-offset="2775" max-vertical-offset="3450">
+            <state line="191" column="0" selection-start="5915" selection-end="6455" vertical-scroll-proportion="0.27522936" vertical-offset="2430" max-vertical-offset="3450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/MainFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="0" selection-start="4451" selection-end="5149" vertical-scroll-proportion="1.6866567" vertical-offset="525" max-vertical-offset="4545">
+            <state line="103" column="51" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="4545">
               <folding />
             </state>
           </provider>
@@ -592,8 +592,8 @@
     <option name="totallyTimeSpent" value="60690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1420" height="815" extended-state="0" />
-    <editor active="false" />
+    <frame x="20" y="22" width="1420" height="815" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5323741" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -609,7 +609,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6158273" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6158273" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="120" y="122" width="1220" height="615" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -785,16 +785,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherContentProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="31" selection-start="6288" selection-end="6291" vertical-scroll-proportion="0.0" vertical-offset="3030" max-vertical-offset="3705">
+        <state line="103" column="51" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="4545">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/MainFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ivinny/tempcalc/WeatherContentProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="4451" selection-end="5149" vertical-scroll-proportion="1.6866567" vertical-offset="525" max-vertical-offset="4545">
+        <state line="191" column="0" selection-start="5915" selection-end="6455" vertical-scroll-proportion="0.27522936" vertical-offset="2430" max-vertical-offset="3450">
           <folding />
         </state>
       </provider>

@@ -1,3 +1,5 @@
 function showAndroidToast(toast) {
-    Android.showToast($("#textarea1").val());
+    Android.showToast(toast);
+
+    Android.saveName($("#textarea1").val());
 }
