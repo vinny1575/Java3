@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/src/release/assets" />
+    </dataSet>
+
+</merger>
