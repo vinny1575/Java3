@@ -1,8 +1,10 @@
 package com.example.businesscard;
 
 import android.app.AlertDialog;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
@@ -45,10 +47,14 @@ public class MainActivity extends Activity {
             _context = context;
         }
 
-        public void showToast(String mssg) {
-            Toast.makeText(_context, mssg, Toast.LENGTH_LONG).show();
+        public void showContacts() {
 
-
+            Intent i = new Intent();
+            i.setComponent(new ComponentName("com.android.contacts", "com.android.contacts.DialtactsContactsEntryActivity"));
+            i.setAction("android.intent.action.MAIN");
+            i.addCategory("android.intent.category.LAUNCHER");
+            i.addCategory("android.intent.category.DEFAULT");
+            startActivity(i);
         }
 
         public void saveName(String name){

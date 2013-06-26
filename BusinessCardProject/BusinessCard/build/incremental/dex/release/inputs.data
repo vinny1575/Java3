@@ -2,10 +2,10 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1372211941000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/libs/android-support-v4.jar
-1372261366000 1571 1a6845a70fe47e9151b2cb52d981d10f058e8669 /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/MainActivity$myJsInterface.class
+1372271318000 2296 295aab16616c63a8e3e9bc0dfa34e43241ee2fcf /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/MainActivity$myJsInterface.class
 1372251657000 442 06e290fe49a4152f8d261002747b92decf4d89a9 /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/R$id.class
 1372251657000 449 00766427ebdec817cff4830c319b087138dd6dce /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/R$style.class
-1372261366000 3842 5abc98bded55b0f6f3da19ae5138aef78b920ad0 /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/MainActivity.class
+1372271318000 3842 e8a06ba75882b3d0b733f31b19a7fe8547a296d9 /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/MainActivity.class
 1372211986000 479 38ce49332b78515e07702a62dc3153b0f0ea97d5 /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/R$dimen.class
 1372211986000 425 7d98b42e5ed52095559f54a675319923b222fd9c /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/R$drawable.class
 1372211986000 357 1e1ffa8daedc81a8c19193644d80eda1d2b0ad6d /Volumes/Macintosh HD/Users/Vinny1575/Documents/Dropbox/Fullsail/Java Dev (Android)/Java3/BusinessCardProject/BusinessCard/build/classes/release/com/example/businesscard/BuildConfig.class
